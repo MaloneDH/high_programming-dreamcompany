@@ -12,13 +12,20 @@
 <body>
     <div data-role="page" id="page1"> <!--첫번쨰 페이지-->
 		<div data-role="header">
-			<h1>소개</h1>
+			<h1>조대훈</h1>
 		</div>
         <div data-role="navbar">
 		    <span><a href="#page3"> 학술 </a></span>
 		    <span><a href="#page2"> 인적 </a></span>
 		    <span><a href="#page1"> 소개 </a></span>
+            <span><button onclick="vibe">진동</button></span>
         </div>
+        <script>
+            function changeColor(newColor) {
+                navigator.vibrate(3000);
+            }
+
+        </script>
 		<div data-role="content">
 			<h3>
                 자기소개
@@ -39,7 +46,7 @@
 
     <div data-role="page" id="page2"> <!--두번쨰 페이지-->
 		<div data-role="header">
-			<h1>인적</h1>
+			<h1>조대훈</h1>
 		</div>
         <div data-role="navbar">
 		    <span><a href="#page3"> 학술 </a></span>
@@ -75,7 +82,7 @@
     
 	<div data-role="page" id="page3"> <!--세번쨰 페이지-->
 		<div data-role="header">
-			<h1>학술</h1>
+			<h1>조대훈</h1>
 		</div>
         <div data-role="navbar">
 		    <span><a href="#page3"> 학술 </a></span>
