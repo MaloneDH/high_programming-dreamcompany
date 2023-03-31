@@ -1,12 +1,16 @@
-# Cordova 앱으로 학과 사이트 만들기  
+# Cordova 앱으로 포토폴리오 만들기  
 - 구성
-  - 메인화면   
-  - 학과소개
-  - 졸업이수학점 구분표
-  - 교수진 소개 
+  - 학술
+  - 인적
+  - 소개 
+  
 - 사용한 프로그램
   - cordova
+    - plugin
   - android studio
-  - jquery mobile 
-  - node js 
-  - chart.js
+  - jquery mobile
+  
+- 구동 이미지
+![학술](./www/11.PNG)
+![인적](./www/22.PNG)
+![소개](./www/33.PNG)
