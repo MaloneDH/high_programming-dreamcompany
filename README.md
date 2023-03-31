@@ -1,1 +1,12 @@
-"# high_programming-dreamcompany" 
+# Cordova 앱으로 학과 사이트 만들기  
+- 구성
+  - 메인화면   
+  - 학과소개
+  - 졸업이수학점 구분표
+  - 교수진 소개 
+- 사용한 프로그램
+  - cordova
+  - android studio
+  - jquery mobile 
+  - node js 
+  - chart.js
